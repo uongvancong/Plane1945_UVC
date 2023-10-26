@@ -20,7 +20,7 @@ public class GameWindow extends Frame implements Runnable {
     public GameWindow() {
         vectorPlaneEnemy = PlaneEnemyManager.getInstance().getVectorPlaneEnemy();
         //thiet lap tieu de cho cua so
-        this.setTitle("TechKids - code the change");
+        this.setTitle("ban may bay");
         //thiet lap kich thuoc cho cua so
         this.setSize(400, 640);
         //thiet lap xem cua so co hien thi hay khong
