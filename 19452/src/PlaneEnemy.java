@@ -36,7 +36,7 @@ public class PlaneEnemy extends GameObject implements Observer {
         this.positionY = positionY;
         this.speed = speed;
         try {
-            this.sprite = ImageIO.read(new File("Resources/PLANE1.png"));
+            this.sprite = ImageIO.read(new File("C:\\Users\\Admin\\Desktop\\Code\\Plane1945_UVC\\19452\\Resources\\PLANE1.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }

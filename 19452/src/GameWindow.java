@@ -35,8 +35,8 @@ public class GameWindow extends Frame implements Runnable {
         });
         //load Image tu thu muc Resource
         try {
-            background = ImageIO.read(new File("Resources/Background.png"));
-
+            File f = new File("C:\\Users\\Admin\\Desktop\\Code\\Plane1945_UVC\\19452\\Resources\\Background.png");
+            background = ImageIO.read(f);
         } catch (IOException e) {
             e.printStackTrace();
         }

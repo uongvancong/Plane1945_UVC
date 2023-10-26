@@ -18,7 +18,7 @@ public class Bullet extends GameObject {
         this.positionY = positionY;
         this.speed = speed;
         try {
-            this.sprite = ImageIO.read(new File("Resources/DAN.png"));
+            this.sprite = ImageIO.read(new File("C:\\Users\\Admin\\Desktop\\Code\\Plane1945_UVC\\19452\\Resources\\DAN.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }

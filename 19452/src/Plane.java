@@ -32,35 +32,36 @@ public class Plane extends GameObject implements Subject {
         this.positionY = positionY;
         this.speed = speed;
         try {
-            hpPicture = ImageIO.read(new File("Resources/HP.png"));
+
+            hpPicture = ImageIO.read(new File("C:\\Users\\Admin\\Desktop\\Code\\Plane1945_UVC\\19452\\Resources\\HP100.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
         switch (planeType) {
             case 1:
                 try {
-                    this.sprite = ImageIO.read(new File("Resources/PLANE1.png"));
+                    this.sprite = ImageIO.read(new File("C:\\Users\\Admin\\Desktop\\Code\\Plane1945_UVC\\19452\\Resources\\PLANE1.png"));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
                 break;
             case 2:
                 try {
-                    this.sprite = ImageIO.read(new File("Resources/PLANE2.png"));
+                    this.sprite = ImageIO.read(new File("C:\\Users\\Admin\\Desktop\\Code\\Plane1945_UVC\\19452\\Resources\\PLANE2.png"));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
                 break;
             case 3:
                 try {
-                    this.sprite = ImageIO.read(new File("Resources/PLANE3.png"));
+                    this.sprite = ImageIO.read(new File("C:\\Users\\Admin\\Desktop\\Code\\Plane1945_UVC\\19452\\Resources\\PLANE3.png"));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
                 break;
             case 4:
                 try {
-                    this.sprite = ImageIO.read(new File("Resources/PLANE4.png"));
+                    this.sprite = ImageIO.read(new File("C:\\Users\\Admin\\Desktop\\Code\\Plane1945_UVC\\19452\\Resources\\PLANE4.png"));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -187,7 +188,7 @@ public class Plane extends GameObject implements Subject {
         switch (this.getHp()) {
             case 100: {
                 try {
-                    hpPicture = ImageIO.read(new File("Resources/HP100.png"));
+                    hpPicture = ImageIO.read(new File("C:\\Users\\Admin\\Desktop\\Code\\Plane1945_UVC\\19452\\Resources\\HP100.png"));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -195,7 +196,7 @@ public class Plane extends GameObject implements Subject {
             }
             case 80: {
                 try {
-                    hpPicture = ImageIO.read(new File("Resources/HP80.png"));
+                    hpPicture = ImageIO.read(new File("C:\\Users\\Admin\\Desktop\\Code\\Plane1945_UVC\\19452\\Resources\\HP80.png"));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -203,7 +204,7 @@ public class Plane extends GameObject implements Subject {
             }
             case 60: {
                 try {
-                    hpPicture = ImageIO.read(new File("Resources/HP60.png"));
+                    hpPicture = ImageIO.read(new File("C:\\Users\\Admin\\Desktop\\Code\\Plane1945_UVC\\19452\\Resources\\HP60.png"));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -211,7 +212,7 @@ public class Plane extends GameObject implements Subject {
             }
             case 40: {
                 try {
-                    hpPicture = ImageIO.read(new File("Resources/HP40.png"));
+                    hpPicture = ImageIO.read(new File("C:\\Users\\Admin\\Desktop\\Code\\Plane1945_UVC\\19452\\Resources\\HP40.png"));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
@@ -219,7 +220,7 @@ public class Plane extends GameObject implements Subject {
             }
             case 20: {
                 try {
-                    hpPicture = ImageIO.read(new File("Resources/HP20.png"));
+                    hpPicture = ImageIO.read(new File("C:\\Users\\Admin\\Desktop\\Code\\Plane1945_UVC\\19452\\Resources\\HP20.png"));
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
